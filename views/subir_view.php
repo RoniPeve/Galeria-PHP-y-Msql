@@ -12,6 +12,7 @@
         <div class="container">
             <h1 class="titulo">Subir Foto</h1>
         </div>
+        
     </header>
     <div class="contenedor_formulario">
         <form method="post" class="formulario" enctype="multipart/form-data" action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']);?>">

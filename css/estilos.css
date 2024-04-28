@@ -112,15 +112,15 @@ body{
     background-color: #f9f9f9;
 }
 textarea#texto {
-    height: 100px; /* Altura inicial del textarea */
-    width: 100%; /* Ancho del textarea (puede ajustarse según sea necesario) */
-    resize: vertical; /* Permitir el redimensionamiento vertical */
-    padding: 5px; /* Relleno para evitar que el texto toque los bordes */
-    border: 1px solid #ccc; /* Borde del textarea */
-    border-radius: 5px; /* Borde redondeado */
-    box-sizing: border-box; /* Incluir el borde y el relleno en el tamaño total */
-    font-family: Arial, sans-serif; /* Fuente del texto */
-    font-size: 14px; /* Tamaño de la fuente */
+    height: 100px; 
+    width: 100%; 
+    resize: vertical; 
+    padding: 5px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    box-sizing: border-box; 
+    font-family: Arial, sans-serif; 
+    font-size: 14px;
 }
 
 .formulario input[type="text"] {

@@ -10,13 +10,17 @@
 <body>
     <header>
         <div class="container">
-            <h1 class="titulo">Foto: 1.jpg</h1>
+            <h1 class="titulo"><?php if(!empty($foto['titulo'])){
+                echo $foto['titulo'];
+            }else{
+                echo $foto['imagen'];
+            }  ?></h1>
         </div>
     </header>
     <div class="contenedor">
         <div class="foto">
-            <img src="imagenes/2.jpg" alt="">
-            <p class="texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, id!</p>
+            <img src="fotos/<?php echo $foto['imagen'] ?>" alt="">
+            <p class="texto"><?php echo $foto['texto'] ?></p>
             <a href="index.php" class="regresar">Regresar</a>
         </div>
     </div>
