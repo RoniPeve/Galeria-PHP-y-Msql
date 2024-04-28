@@ -9,6 +9,9 @@
 </head>
 <body>
     <header>
+        <div class="usuario">
+            <a href="cerrar.php">Cerrar Sesion</a>
+        </div>
         <div class="container">
             <h1 class="titulo">Subir Foto</h1>
         </div>

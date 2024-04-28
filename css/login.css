@@ -1,0 +1,88 @@
+body{
+    margin:0;
+    text-decoration: none;
+    background: #351b4b;
+    font-family: Arial, sans-serif;
+}
+
+.titulo{
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+}
+
+.registro {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-group {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.form-group i {
+    color: #888;
+   
+}
+.user, .contra{
+    padding-right: 10px;
+}
+.formulario{
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+
+}
+.usuario, .password, .password-btn{
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.texto-login {
+    text-align: center;
+}
+
+.texto-login p {
+    color: #888;
+}
+
+.iniciar_sesion {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+button {
+    padding: 10px 20px;
+    width: 100%;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+button:hover {
+    background-color: #0056b3;
+}
+.error ul{
+    list-style: none;
+    color: red;
+}
